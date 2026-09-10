@@ -110,11 +110,11 @@ Skill 的革命性不在于"手写手册"，而在于**自动生成与进化**�
 ### 【应用领域：领域 + 主要创新】
 
 1. **软件开发 + 从轨迹到可复用修复流程**：Cognition（Devin）公开分享——成功任务自动转成"playbook"；以及 SWE-smith / SWE-bench 社区沉淀的"修 bug 技能模板"。
-2. **科研协作 + 全家桶技能治理**：CCFA 技能家族（本项目索引中可见 ccf-* 系列）——路由、触发词注册表、任务模式、交接模式、隐私策略的共享治理，是"多 skill 工业化治理"的范本。
+2. **科研协作 + 全家桶技能治理**：CCFA 技能家族——路由、触发词注册表、任务模式、交接模式、隐私策略的共享治理，是"多 skill 工业化治理"的范本。
 3. **办公软件 + 企业流程技能化**：Microsoft Copilot Studio 的"topics"与 Salesforce Agentforce 的"topics/actions"——企业把 SOP 编码为 agent 技能的标准商业实践。
 4. **机器人 + 技能库与 affordance 结合**：SayCan 后继工作——预置技能原语库，LLM 负责组合调度（技能 = 机器人动作原语 + 使用说明）。
 5. **游戏 + 开放世界技能涌现**：Voyager 后续（Odyssey、Ghost in the Minecraft）——技能库跨会话持久化使 agent 持续变强。
-6. **数据分析 + 图表/报表技能模板化**：本环境 `kimi-design`、`kimi-excel` 等——把"设计规范/校验清单"沉淀为技能，新人 agent 零成本继承最佳实践。
+6. **数据分析 + 图表/报表技能模板化**：`kimi-design`、`kimi-excel` 等——把"设计规范/校验清单"沉淀为技能，新人 agent 零成本继承最佳实践。
 7. **合规与安全 + 技能审计**：Anthropic Agent Skills 白皮书中的权限边界（skill 声明所需工具，运行时白名单校验）——技能成为新的安全审计单元。
 
 ## 第三部分：项目学习库（Coding 链接）
@@ -129,10 +129,9 @@ Skill 的革命性不在于"手写手册"，而在于**自动生成与进化**�
 | modelcontextprotocol/servers | 看 MCP server 如何附带"使用说明"——工具与技能的交界实践 | https://github.com/modelcontextprotocol/servers |
 | e2b-dev/awesome-ai-agents（社区合集） | Agent/技能生态的社区精选合集，找现成样例与资料 | https://github.com/e2b-dev/awesome-ai-agents |
 | crewAIInc/crewAI 的 tools 目录 | 工具 + 说明文档绑定方式的最小实例 | https://github.com/crewAIInc/crewAI |
-| 本机：Kimi Work skills 目录 | 本环境自带 40+ 个 skill（见系统技能索引），`SKILL.md` 全部是现成教材：`C:\Users\18956\AppData\Roaming\kimi-desktop\daimon-share\daimon\skills\` | 本地路径 |
 
 **动手路线建议**：
 1. 通读 `anthropics/skills` 里 3 个 skill 的 SKILL.md（推荐 pdf、xlsx），体会 L1/L2/L3 分层。
 2. 在 Minecraft 仿真或简化环境里复现 Voyager 的技能入库循环（MineDojo 提供环境）。
 3. 把自己反复做的某类任务（如"生成周报"）手写成一个 SKILL.md，用三次迭代改进它——体会"沉淀"的价值。
-4. 用本环境的 `skill-creator` 技能（见技能索引）让 Agent 帮你把第 3 步的成果规范化。
+4. 用 `skill-creator` 技能让 Agent 帮你把第 3 步的成果规范化。

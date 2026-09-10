@@ -129,7 +129,6 @@ loop:
 | browser-use/browser-use | 浏览器型 harness：DOM 提取+动作空间设计 | https://github.com/browser-use/browser-use |
 | OpenPipe/ART（Agent Reinforcement Trainer） | 用可验证奖励在真实 harness 轨迹上训练 agent（模块 01 与本模块的交汇） | https://github.com/OpenPipe/ART |
 | anthropics/claude-code（官方 CLI） | 闭源但可观察：用 `--verbose`、日志与公开 system prompt 逆向学习工业 harness | https://github.com/anthropics/claude-code |
-| 本机：Kimi Work | 你正在使用的 harness 实例：技能系统、Automation、Canvas、权限模式——对照本文件逐条观察本环境的对应设计 | 本地应用 |
 
 **动手路线建议**：
 1. 用 200 行 Python 手写一个最小 harness：system prompt + 3 个工具（读文件/跑命令/搜索）+ ReAct 循环 + 步数上限——一周内你会理解 90% 的工业 harness 设计决策。

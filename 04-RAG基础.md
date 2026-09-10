@@ -110,7 +110,7 @@ RAG 的核心思想（Lewis et al., 2020 提出时即点明）：
 2. **法律领域 + 法条级精确引用**：LawGPT-zh、LexGLUE 系列——法条编号必须逐字命中 → 混合检索 + 强制引用校验。
 3. **医疗领域 + 证据分级**：MedRAG、MedCite——指南/文献分级证据（RCT > 观察研究）融入重排。
 4. **代码检索 + 语义代码搜索**：voyage-code / CodeSearchNet / repo-level RAG（RepoCoder）——按 AST 分块、以调用关系做图检索。
-5. **金融投研 + 多源异构融合**：本环境 `cn-finance-data`/`ifind` 插件范式——结构化行情 + 非结构化研报 + 实时新闻的混合检索与时效性过滤。
+5. **金融投研 + 多源异构融合**：`cn-finance-data`/`ifind` 插件范式——结构化行情 + 非结构化研报 + 实时新闻的混合检索与时效性过滤。
 6. **多模态 RAG + 图文联合嵌入**：ColPali（视觉 PDF 嵌入，绕过解析）、MM-RAG——扫描件/图表直读。
 7. **对话式 RAG + 多轮指代消解**：Follow-up 问题改写（contextual compression + 指代消解成独立问题）。
 8. **推荐/搜索 + 生成式检索（GenIR）**：推荐系统直接"生成"商品 ID（TIGER、LC-Rec），检索与生成边界消融。

@@ -148,8 +148,8 @@ Action3: Finish[3°C]
 | OpenAutoCoder/Agentless | 反直觉对照组：不用 agent、用检索+定位+修复流水线也能打 SWE-bench——理解"什么时候不需要 agent" | https://github.com/OpenAutoCoder/Agentless |
 | All-Hands-AI/OpenHands | 开源版 Devin，完整的 SWE Agent 平台（代码+运行时+评测） | https://github.com/All-Hands-AI/OpenHands |
 | modelcontextprotocol/servers | MCP 官方 server 集合，学协议实现的最佳样例库 | https://github.com/modelcontextprotocol/servers |
-| signalfx/agent-metrics（可跳过）→ 推荐 **anthropics/courses** | Anthropic 官方课程：Agent 构建全教程（workshop 形式） | https://github.com/anthropics/courses |
-| browser-use/browser-use | 用 LLM 操作真实浏览器（本环境可跑） | https://github.com/browser-use/browser-use |
+| anthropics/courses | Anthropic 官方课程：Agent 构建全教程（workshop 形式） | https://github.com/anthropics/courses |
+| browser-use/browser-use | 用 LLM 操作真实浏览器 | https://github.com/browser-use/browser-use |
 | stanford-oval/storm | 深度研究 agent：多视角检索写百科式报告 | https://github.com/stanford-oval/storm |
 
 **动手路线建议**：

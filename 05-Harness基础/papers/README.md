@@ -28,8 +28,6 @@
 | 11 | AutoHarness: improving LLM agents by automatically synthesizing a code harness（2026） | 让 Gemini-2.5-Flash 自动合成 code harness，在 145 个 TextArena 游戏中消除全部非法动作，小模型超越大模型 | Google DeepMind | 自动优化 | — | — | [arXiv:2603.03329](https://arxiv.org/abs/2603.03329) |
 | 12 | MemoHarness: Agent Harnesses That Learn from Experience（2026） | 双层级经验记忆，让 agent 按案例自适应调整六个 harness 维度；解决 test-time adaptation 问题 | 未注明 | 自动优化 | — | — | [arXiv:2607.14159](https://arxiv.org/abs/2607.14159) |
 | 13 | AutoSaddler: Automatic Harness Optimization with Durable Updates from Agent Execution Traces（2026） | 从 agent 执行轨迹中提取持久化更新，自动改进 harness | Microsoft | 自动优化 | — | — | [arXiv:2608.23041](https://arxiv.org/abs/2608.23041) |
-| 14 | HarnessCompass: Guiding Automatic Harness Evolution toward Generalizable and Effective Agent Harnesses（2026） | 引导 harness 自动演化走向可泛化方向 | 未注明 | 自动优化 | — | — | [Semantic Scholar](https://www.semanticscholar.org/paper/HarnessCompass) |
-| 15 | Better Harnesses, Smaller Models: Building 90% Cheaper Agents via Automated Harness Adaptation（2026） | 自动化 harness 适配让推理成本降低约 90% | 未注明 | 自动优化 | — | — | [arXiv](https://arxiv.org/abs/2607.xxxxx) |
 
 ## 四、长时程执行与状态管理（2026）
 
@@ -62,7 +60,6 @@
 | 25 | VeRO: A Harness for Agents to Optimize Agents（ICML 2026） | 配套 VeRO-Bench，让 coding agent 作为 optimizer 改进 tool-heavy agent，典型增益 7–15% | 未注明 | 评测基准 | — | — | [ICML](https://icml.cc/virtual/2026/poster/xxxxx) |
 | 26 | Harness-Bench: Measuring Harness Effects across Models in Realistic Agent Workflows（2026） | 测量 harness 设计对不同模型在真实工作流中的影响 | 未注明 | 评测基准 | — | — | [Hugging Face](https://huggingface.co/collections/Reacherx/agent-harness-benchmarks) |
 | 27 | ClawBench（2026） | 评估 AI agent 完成日常在线任务的 harness 基准 | 未注明 | 评测基准 | — | — | [Hugging Face](https://huggingface.co/collections/Reacherx/agent-harness-benchmarks) |
-| 28 | Auditing Agent Harness Safety（2026） | 审计 agent harness 安全性的方法论 | 未注明 | 安全/审计 | — | — | [ar5iv](https://ar5iv.labs.arxiv.org/html/2604.xxxxx) |
 | 29 | Understanding Agent-Reactive Bugs at the Model-Harness Boundary（2026） | 手工分析 255 份 issue report，分类 model–harness 交互触发的 bug | 未注明 | 安全/审计 | — | — | [arXiv:2607.15684](https://arxiv.org/abs/2607.15684) |
 
 ## 八、系统与工具（2025–2026）
